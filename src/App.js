@@ -5,7 +5,7 @@ import NavBar from './components/NavBar';
 import Login from './pages/auth/Login';
 import Register from './pages/auth/Register';
 import Dashboard from './pages/dashboard/Dashboard';
-
+import Footer from './components/Footer';
 // import Switch, BrowserRouter as Router, Route from 'react-router-dom';
 
 import {
@@ -24,7 +24,7 @@ function App() {
             <Login />
           </Route>
           <Route path="/">
-              <NavBar/><Home/>
+              <NavBar/><Home/><Footer/>
           </Route>
         </Switch>
       
